@@ -3,7 +3,7 @@
 - 문제를 해결하기 위해 데이터를 사용해서 흐름 및 방향을 찾는 기술이다.
 - 데이터 분석을 통해 비지니스 프로세스를 구성하고, 의사 결정을 개선하며, 비지니스 성장을 증진할 수 있다.
 
-<img width="1430" height="570" alt="image" src="https://github.com/user-attachments/assets/d0b86390-3567-4763-a99a-01d10a9738e3" />
+<img width="1430" height="570" alt="image" src="https://github.com/user-attachments/assets/d0b86390-3567-4763-a99a-01d10a9738e3" width="900px" style="margin-left: 10px;"/>
 
 ** <sub>ETL은 Extract(추출), Transform(변환), Load(적재)를 의미한다. 여기 저기 흩어진 데이터를 하나로 모으기 위한 결합 과정이다.</sub>
 
@@ -14,7 +14,7 @@
   수량적인 비교를 기초로 많은 사실을 관찰하고 처리하는 방법을 연구하는 학문이다.
 - 불균형 데이터를 대상으로 규칙성과 불규칙성을 발견한 뒤 실생활에 적용할 수 있다.  
 
-<img width="1690" height="999" alt="image" src="https://github.com/user-attachments/assets/c3c1caf0-031c-474c-8e42-f9692fa8a014" />
+<img width="1690" height="999" alt="image" src="https://github.com/user-attachments/assets/c3c1caf0-031c-474c-8e42-f9692fa8a014" style="margin-top: 20px" />
 
 
 #### 변량 (Variable)
@@ -41,7 +41,7 @@
 #### 산술 평균 (Mean)
 - 변량의 합을 변량의 수로 나눈 값을 의미한다.
 
-<img width="171" height="63" alt="image" src="https://github.com/user-attachments/assets/070641f6-38e5-4a0c-946b-44787da84afc" />
+<img width="171" height="63" alt="image" src="https://github.com/user-attachments/assets/070641f6-38e5-4a0c-946b-44787da84afc" style="margin-left: 20px;" />
 
 
 #### 편차 (Deviation)
@@ -52,13 +52,13 @@
 - 변량이 평균으로부터 떨어져있는 정도를 보기 위한 통계량이다.
 - 편차에 제곱하여 그 합을 구한 뒤 산술 평균을 낸다.
 
-<img width="305" height="64" alt="image" src="https://github.com/user-attachments/assets/859b2e0e-7d93-4d33-a41e-d1ceb14b5a0d" />
+<img width="305" height="64" alt="image" src="https://github.com/user-attachments/assets/859b2e0e-7d93-4d33-a41e-d1ceb14b5a0d" style="margin-left: 10px" />
 
 #### 표준편차 (Standard deviation)
 - 분산의 제곱근이며, 관측된 변량의 흩어진 정도를 하나의 수치로 나타내는 통계량이다.
 - 표준편차가 작을 수록 평균 값에서 변량들의 거리가 가깝다고 판단한다.
 
-<img width="205" height="40" alt="image" src="https://github.com/user-attachments/assets/fcc18b33-bac9-44f6-94da-94b65a8b9d1e" />
+<img width="205" height="40" alt="image" src="https://github.com/user-attachments/assets/fcc18b33-bac9-44f6-94da-94b65a8b9d1e" style="margin-left: 15px" />
 
 #### 확률변수 (Random variable)
 - 머신러닝, 딥러닝 등 확률을 다루는 분야에 있어서 필수적인 개념이다.
@@ -121,7 +121,7 @@
 - 확률변수에서 각 값에 대한 확률을 나타내는 것이 마치 각 값이 "질량"을 가지고 있는 것처럼 보이기 때문에 확률질량 함수로 불린다.
 
 > 확률질량 함수 f는 확률변수 X가 x를 변수값으로 가질 때의 확률이다.  
-> <img width="157" height="33" alt="image" src="https://github.com/user-attachments/assets/a608e59d-98fe-410a-b67c-502db149a1c8" />
+> <img width="157" height="33" alt="image" src="https://github.com/user-attachments/assets/a608e59d-98fe-410a-b67c-502db149a1c8" style="margin-top: 10px" />
 > <img width="113" height="53" alt="image" src="https://github.com/user-attachments/assets/5a2e4b4c-8a6a-4496-bfe9-bf1ed930afd8" />
 > <img width="122" height="25" alt="image" src="https://github.com/user-attachments/assets/6c335bfc-5a93-4574-ba29-41a9e1556be9" />
 
@@ -155,7 +155,7 @@
 - ※ CDF(cumulative distribution function): 이하 확률
 
 > 확률밀도 함수 f는 특정 구간에 포함될 확률을 나타낸다.  
-> <img width="243" height="56" alt="image" src="https://github.com/user-attachments/assets/7537cf0e-7385-4387-910a-a3a6525228cf" />
+> <img width="243" height="56" alt="image" src="https://github.com/user-attachments/assets/7537cf0e-7385-4387-910a-a3a6525228cf" style="margin-top: 10px" />
 > <img width="122" height="25" alt="image" src="https://github.com/user-attachments/assets/5e8838e2-98ee-4c8c-8326-ef24a1a83a33" />
 > <img width="142" height="59" alt="image" src="https://github.com/user-attachments/assets/08a53254-8615-4c3d-8ae1-b6a53d007ab8" />
 > <img width="127" height="32" alt="image" src="https://github.com/user-attachments/assets/bfa791a9-631f-4b0f-85cc-43621be430b9" />
@@ -164,17 +164,16 @@
 - 모든 독립적인 확률변수들의 평균은 어떠한 분포에 가까워지는데, 이 분포를 정규분포라고 한다.
 - 즉, 비정규분포의 대부분은 극한상태에 있어서 정규분포에 가까워진다.
 
-<img width="1920" height="1152" alt="image" src="https://github.com/user-attachments/assets/b29325fd-06bd-47c7-802e-ea5c597b0735" />
-<img width="1920" height="1152" alt="image" src="https://github.com/user-attachments/assets/0ad64c87-021a-4251-9db1-197a6c044682" />
+<img width="1920" height="1152" alt="image" src="https://github.com/user-attachments/assets/b29325fd-06bd-47c7-802e-ea5c597b0735"  width="500px" /> <img width="1920" height="1152" alt="image" src="https://github.com/user-attachments/assets/0ad64c87-021a-4251-9db1-197a6c044682"  width="500px" />
  
 - 평균 μ(mu)와 표준편차 σ(sigma)에 대해 아래의 확률밀도함수를 가지는 분포를 의미한다.
 
 <div style="display: flex">
     <div>
-        <img width="245" height="80" alt="image" src="https://github.com/user-attachments/assets/f48a924f-6dd8-4950-9bec-ec828745ca33" />
+        <img width="245" height="80" alt="image" src="https://github.com/user-attachments/assets/f48a924f-6dd8-4950-9bec-ec828745ca33" width="230px" style="margin-left: 20px" />
     </div>
     <div>
-        <img width="1200" height="687" alt="image" src="https://github.com/user-attachments/assets/f50ada7c-0e3e-42f1-93d6-a9788317cf6d" />
+        <img width="1200" height="687" alt="image" src="https://github.com/user-attachments/assets/f50ada7c-0e3e-42f1-93d6-a9788317cf6d" width="700px" style="margin-left: 20px" />
     </div>
 </div>
 
@@ -183,23 +182,23 @@
 #### 표준 정규분포 (Standard normal distribution)
 - 정규분포는 평균과 표준편차에 따라서 모양이 달라진다.
 
-<img width="545" height="339" alt="image" src="https://github.com/user-attachments/assets/d8b38bb2-5e5b-4bd1-901a-0e070ba08855" />
+<img width="545" height="339" alt="image" src="https://github.com/user-attachments/assets/d8b38bb2-5e5b-4bd1-901a-0e070ba08855"  width="400px" />
  
 
 - 정규분포를 따르는 분포는 많지만 각 평균과 표준편차가 달라서 일반화할 수 없다.
 - N(μ, σ) = N(0, 1)로 만든다면 모두 같은 특성을 가지는 동일한 확률분포로 바꿔서 일반화할 수 있다.
 - 따라서 일반 정규분포를 표준 정규분포로 바꾼 뒤 표준 정규분포의 특정 구간의 넓이를 이용해서 원래 분포의 확률을 구할 수 있다.
 
-<img width="501" height="376" alt="image" src="https://github.com/user-attachments/assets/3ed835a5-e735-45ab-b3bc-f36183173fe9" />
+<img width="501" height="376" alt="image" src="https://github.com/user-attachments/assets/3ed835a5-e735-45ab-b3bc-f36183173fe9" width="550px" />
 
 
 #### 표준화 (Standardization)
 - 다양한 형태의 정규분포를 표준 정규분포로 변환하는 방법이다.
 - 표준 정규분포에 대한 값(넓이)를 이용해 원래 분포의 확률을 구할 수 있다.  
 
-<img width="136" height="60" alt="image" src="https://github.com/user-attachments/assets/978be7b1-7384-4964-984c-6765b952140e" />
+<img width="136" height="60" alt="image" src="https://github.com/user-attachments/assets/978be7b1-7384-4964-984c-6765b952140e" style="margin-left: 20px" />
 
-<img width="679" height="644" alt="image" src="https://github.com/user-attachments/assets/5f0e5d3e-9e7a-4d14-ad26-08a5444a6a4b" />
+<img width="679" height="644" alt="image" src="https://github.com/user-attachments/assets/5f0e5d3e-9e7a-4d14-ad26-08a5444a6a4b" style="margin-left: 20px" />
 
 #### 모집단과 모수 (Population and population parameter)
 - 모집단이란, 정보를 얻고자 하는 대상의 전체 집합을 의미한다.
@@ -211,8 +210,20 @@
 - 모집단의 통계량을 구할 수 없는 상황 즉, 전수 조사가 불가능한 상황에서 임의의 표본을 추출하여 분석한다.
 - 이렇게 표본(sample)을 추출하는 작업을 샘플링(sampling)이라고 한다.
 
+### Numpy
+- 머신러닝 애플리케이션에서 데이터 추출, 가공, 변환과 같은 데이터 처리 부분을 담당한다.
+- 넘파이 기반의 사이킷런을 이해하기 위해서는 넘파이는 필수이다.
+- 사이킷런은 직관적이고 간결하기 때문에 상대적으로 개발하기 쉽지만 넘파이는 양도 많고 배울 것도 많다.
+- 넘파이 전체를 다 이해하고 공부하는 것은 머신러닝을 포기하게 만들기 때문에  
+  기본 문법과 중요 API만 이해하는 것이 전략적으로 좋다.
 
+#### ndarray
+- N차원(n-dimension) 배열 객체이다.
+- 파이썬 list를 array() 메소드에 전달하면 ndarray로 변환되고  
+  넘파이의 다양하고 편리한 기능들을 사용할 수 있게 된다.
+- 반드시 같은 자료형의 데이터만 담아야 한다.
 
+<img width="791" height="269" alt="image" src="https://github.com/user-attachments/assets/f30ec09f-0b30-4b42-b5d4-254cd49cc8ef" width="400px" style="margin-left: 10px;" />
 
 
 

@@ -226,6 +226,92 @@
 <img width="791" height="269" alt="image" src="https://github.com/user-attachments/assets/f30ec09f-0b30-4b42-b5d4-254cd49cc8ef" width="400px" style="margin-left: 10px;" />
 
 
+#### astype()
+- ndarray에 저장된 요소의 타입을 변환시킬 때 사용한다.
+- 대용량 데이터 처리 시, 메모리 절약을 위해 사용한다.
+
+#### axis
+- 축의 방향성을 표현할 때, axis로 표현할 수 있다.
+
+<img width="1045" height="276" alt="image" src="https://github.com/user-attachments/assets/c1d7bf7b-1612-4e8e-abde-a1892101c40a" width="500px" style="margin-left: 10px;" />
+
+#### arange(), zeros(), ones()
+- ndarray의 요소를 원하는 범위의 연속값, 0 또는 1로 초기화할 때 사용한다.
+
+### reshape()
+- ndarray의 기존 shape를 다른 shape로 변경한다.
+
+#### Indexing
+- 특정 위치의 데이터를 가져오는 것
+- 위치 인덱싱(Location indexing)
+- 슬라이싱(Slicing)
+- 팬시 인덱싱(Fancy indexing)
+- 불린 인덱싱(Boolean indexing)
+
+#### Sorting
+- 모두 오름차순 정렬이며, 내림차순은 오름차순 정렬 후 [::-1]을 붙여 사용한다.
+
+### 벡터
+- 데이터 과학에서 벡터란 숫자 자료를 나열한 것을 의미한다.
+- 벡터는 공간에서 한 점을 나타낸다.
+- feature 1개당 1차원이고, feature가 3개면 3차원이다.
+- 이 때, 1차원 좌표평면에서는 열벡터를 표현할 수 있으며, 2차원 좌표평면에서는 2열 데이터를 표현할 수 있게 된다.
+
+#### 내적 (Dot product)
+- 두 벡터의 성분들의 곱의 합
+
+<img width="467" height="121" alt="image" src="https://github.com/user-attachments/assets/0d246a4c-80f9-45d4-9878-cf1f13c0efc3" width="500px" style="margin-left: 0;" />
+
+
+#### 선형대수 (Linear Algebra)
+- 선형 방정식을 풀기 위해 배우는 학문이다.
+- 4x = 16일 경우, 좌항의 4를 우항으로 넘겨서 x라는 것을 구할 수 있고,  
+  방정식 1개만으로 해를 구할 수 있다.
+- y = 2x + 5일 경우, 미지수가 2개이기 때문에 방정식이 2개 필요하다.
+- 이러한 연립 방정식을 표현할 때 쉽게 표현하기 위해서 선형대수를 배운다.
+
+#### 과결정계(Overdetermined system)
+- 미지수보다 방정식 더 많이 있는 연립방정식으로서 보통 해가 존재하지 않고, 만약 존재하더라도 유일하지 않다.
+- 3차원 공간에 존재하는 2차원 평면 4개에서는 3차원 공간의 해를 구하기는 어렵다.  
+  3차원 공간에 있는 평면들의 교점이 1개라는 조건을 만족하려면, 4번째 평면이 정확하게 이 교점을 지나야 하는데, 이는 결국 해를 찾는 것이 불가능에 가깝기 때문이다.
+- 결국 차원을 넘어간 평면에 위치한 점들 중, 교점과 가장 가까운 거리의 점을 찾고, 투영을 통해 해당 차원으로 축소해야 해를 찾을 수 있으며, 이 때 해의 근사치를 구할 수 있다.   
+  투영시, 원본 값에서 어느정도의 loss(손실)가 발생하지만 이를 감안하더라도 근사값을 구하기 위해 수행한다.
+
+### 판다스 (Pandas)
+- 데이터 처리 라이브러리 중 가장 인기있는 라이브러리이다.
+- 2차원 데이터(테이블, 엑셀, CSV 등)를 효율적으로 가공 및 처리할 수 있다.
+
+#### 판다스 구성 요소
+- DataFrame: 행과 열로 구성된 2차원 Dataset을 의미한다.
+- Series: 1개의 열로만 구성된 열벡터 Dataset을 의미한다.
+- Index: DataFrame과 Series에서 중복없는 행 번호를 의미한다.
+
+#### DataFrame()
+- dict를 DataFrame으로 변환하고자 할 때 DataFrame 생성자에 전달한다.
+- 컬럼명을 추가하거나 인덱스명을 변경하는 등 다양하게 설정할 수 있다.
+
+#### read_csv()
+- csv 파일을 DataFrame으로 읽어온다.
+
+#### head()
+- 전체 데이터 중 앞부분 일부를 가져온다.
+
+#### tail()
+- 전체 데이터 중 뒷부분 일부를 가져온다.
+
+#### iloc[], loc[]
+- 원하는 행 또는 열을 가져온다.
+- iloc은 인덱스 번호로 가져오고, loc은 인덱스 값 또는 컬럼명으로 가져온다.
+
+#### describe()
+- 숫자형 데이터의 개수, 평균, 표준편차, 최소값, 사분위 분포도(중앙값: 50%), 최대값을 제공한다.
+- 25번째 백분위수와 75번째 백분위수를 기준으로 정상치의 범위를 설정할 수 있다.
+
+
+
+
+
+
 
 
 <div style="display: flex; justify-content: center; gap: 20px;">
